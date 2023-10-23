@@ -1,0 +1,41 @@
+*{margin:0;
+padding:0;}
+.sineup {
+    width: 310px;
+    padding: 20px;
+    height: 450px;
+    background: #bdc2c382;
+}
+#input {
+    width: 280px;
+    height: 20px;
+    margin: 8px;
+    background: #dde0e0;
+}
+#bottom {
+    width: 150px;
+    color: #2727d4;
+    background: #ffffff;
+    height: 20px;
+    opacity: 0.5;
+}
+#bottom:hover{
+	background:#00adff;
+	opacity:1;
+}
+textarea {
+    margin-left: 75px;
+    background: #2e2c34;
+    opacity: 0.3;
+	color:white;
+	box-shadow: -1px -1px 0px 0px;
+}
+select{
+	background: #ffffff;
+    opacity: 0.3;
+	width:250px;
+	box-shadow: -1px -1px 0px 0px;
+}
+#chack{
+	opacity:0.8;
+}
