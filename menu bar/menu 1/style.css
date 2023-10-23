@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuContiner{
+    width: 430px;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+}
+.bicScenMenu{
+    width: 430px;
+}
+.bicScenMenu ul li{
+    display: inline-block; 
+   list-style: none;
+   margin:12px 8px;
+}
+.bicScenMenu ul li a{
+   text-transform: uppercase;
+   text-decoration: none;
+   color: black;
+   font-size: 13px;
+}
+.bicScenMenu ul li::after{
+   content:'';
+   width:0%;
+   height:2px;
+   background:#f43665;
+   display:block;
+   margin:auto;
+   transition:0.5s;
+}
+.bicScenMenu ul li:hover::after{
+   width:100%;
+}
